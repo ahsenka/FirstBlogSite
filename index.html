@@ -1,11 +1,30 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Blog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Blog Yazıları</h1>
+    </header>
+    
+    <main>
+        <section class="blog-form">
+            <h2>Yeni Yazı Ekle</h2>
+            <input type="text" id="blog-title" placeholder="Başlık">
+            <textarea id="blog-content" placeholder="İçerik"></textarea>
+            <button id="add-post">Yazıyı Ekle</button>
+        </section>
 
+        <section class="blog-list">
+            <h2>Yazılar</h2>
+            <ul id="posts"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

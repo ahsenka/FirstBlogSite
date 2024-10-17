@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6685D3F2-791F-429F-8835-9183FECCFFCF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		index.html = index.html
+		script.js = script.js
+		style.css = style.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
